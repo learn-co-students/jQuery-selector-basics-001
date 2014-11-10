@@ -25,5 +25,5 @@ function imageSelector(){
 }
 
 function checkboxInputSelector(){
-  return $('input[type="checkbox"').wrap('<span class="pinky"></span>');
+  return $('input[type="checkbox"]').wrap('<span class="pinky"></span>');
 }
