@@ -31,11 +31,11 @@ ex.
 ```shell
 # Install jasmine:
 gem sources -a http://flatiron:33west26@gems.flatironschool.com
-gem install ironboard
+gem install learn-co
 
 # Run Jasmine test suite:
-ironboard  # runs only in the terminal
-ironboard -b # runs also in the browser
+learn  # runs only in the terminal
+learn -b # runs also in the browser
 ```
 
 Bonus: Use jQuery traversal methods to select one element and then switch selection to another element based on their location to each other in the DOM, documented at the [link here](http://api.jquery.com/category/traversing/).
