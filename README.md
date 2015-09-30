@@ -1,9 +1,9 @@
 # Code Challenge - Exploring jQuery Selectors
 
-In this challenge you will work in groups to practice using jquery to select different elements in the page using all of the different jQuery selectors available. 
+In this challenge you will work in groups to practice using jQuery to select different elements in the page using all of the different jQuery selectors available. 
 
 ## Getting Started
-In js/selectors.js write the code neccesary to select 5 different elements from the index.html page. Make use of the CSS selectors documented at the [link here](http://api.jquery.com/category/selectors/). As en example of some things you can do with these methods, you can use the addClass() method documented [here](http://api.jquery.com/addClass/), or the wrap() method documented [here](http://api.jquery.com/wrap/) to apply a css class to the selected elements or wrap the selected elements within another html element. Try experimenting with these - for example, see what adding the class 'pinky' will do. Don't forget to use the developer tools to explore elements relationships to each other and to find ways of selecting them.
+In js/selectors.js write the code necessary to select 5 different elements from the index.html page. Make use of the CSS selectors documented at the [link here](http://api.jquery.com/category/selectors/). As an example of some things you can do with these methods, you can use the addClass() method documented [here](http://api.jquery.com/addClass/), or the wrap() method documented [here](http://api.jquery.com/wrap/) to apply a css class to the selected elements or wrap the selected elements within another html element. Try experimenting with these - for example, see what adding the class 'pinky' will do. Don't forget to use the developer tools to explore elements relationships to each other and to find ways of selecting them.
 
 ## What You Need to Do
 
@@ -25,11 +25,11 @@ ex.
 ```shell
 # Install jasmine:
 gem sources -a http://flatiron:33west26@gems.flatironschool.com
-gem install ironboard
+gem install learn-co
 
 # Run Jasmine test suite:
-ironboard  # runs only in the terminal
-ironboard -b # runs also in the browser
+learn  # runs only in the terminal
+learn -b # runs also in the browser
 ```
 
 Bonus: Use jQuery traversal methods to select one element and then switch selection to another element based on their location to each other in the DOM, documented at the [link here](http://api.jquery.com/category/traversing/).
