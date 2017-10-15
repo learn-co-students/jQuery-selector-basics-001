@@ -5,6 +5,7 @@ describe('Selectors', function() {
   });
 
   it('#h1Selector should select all h1\'s', function() {
+    debugger;
     expect(h1Selector().length).toBe(1);
   });
 
